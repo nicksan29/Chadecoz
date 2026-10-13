@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #172554;
+  --color-light-blue: #bfdbfe;
+  --color-accent: #3b82f6;
+  --color-cream: #fdfbf7;
+}
+
+body {
+  @apply bg-cream text-slate-800 font-sans antialiased;
+}
+
+/* Remove default margins applied by Vite template */
+#root {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
